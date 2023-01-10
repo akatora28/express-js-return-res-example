@@ -1,6 +1,6 @@
 # Example Code for Dev.To Article:
 
-[Why you should ALWAYS use return before res.send in Express APIs and Applications]()
+[Why you should ALWAYS use return before res.send in Express APIs and Applications](https://dev.to/adamkatora/why-you-should-always-use-return-before-ressend-in-express-apis-and-applications-k9k)
 
 Install with:
 
