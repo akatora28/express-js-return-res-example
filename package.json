@@ -1,0 +1,22 @@
+{
+  "name": "bug-free-software-corp",
+  "version": "1.0.0",
+  "description": "An intentionally poorly written Express.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "curl-right-password": "curl -X POST -H 'Content-Type: application/json' -d '{\"password\": \"P@ssw0rd!\"}' http://localhost:3000/login",
+    "curl-wrong-password": "curl -X POST -H 'Content-Type: application/json' -d '{\"password\": \"Wr0ngP@ssw0rd!\"}' http://localhost:3000/login",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
